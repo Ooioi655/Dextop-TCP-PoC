@@ -1,6 +1,9 @@
 name: Build Dextop TCP PoC
 
 on:
+  push:
+    branches:
+      - main
   workflow_dispatch:
 
 jobs:
